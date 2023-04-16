@@ -1,25 +1,47 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .Bottle {
+      height: 150px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .Bottle {
+      height: 400px;
+    }
+}
+
+/* Large and extra large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .Bottle {
+      height: 600px;
+    }
+}
+
 .Loading {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    background-color: goldenrod;
-    width: 100%;
-    height: 100%;
-  }
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  background-color: goldenrod;
+  width: 100%;
+  height: 100%;
+}
 
 @media (prefers-reduced-motion: no-preference) {
-    .Bottle {
-      animation: Bottle-spin infinite 10s linear;
-    }
+  .Bottle {
+    animation: Bottle-spin infinite 10s linear;
   }
+}
 
 @keyframes Bottle-spin {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
   }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

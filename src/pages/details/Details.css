@@ -1,91 +1,93 @@
  /* Extra small devices (phones, 600px and down) */
  @media only screen and (max-width: 600px) {
-    .Details {
-        width: 300px;
-    }
-    
-    .DetailsContainer {
-        flex-direction: column;
-    }
+     .Details {
+         width: 300px;
+     }
+
+     .DetailsContainer {
+         flex-direction: column;
+     }
  }
 
  /* Small devices (portrait tablets and large phones, 600px and up) */
  @media only screen and (min-width: 600px) {
-    .Details {
-        width: 600px;
-    }
-    .DetailsContainer {
-        flex-direction: column;
-    }
-}
- 
+     .Details {
+         width: 600px;
+     }
+
+     .DetailsContainer {
+         flex-direction: column;
+     }
+ }
+
  /* Large and extra large devices (laptops/desktops, 992px and up) */
  @media only screen and (min-width: 992px) {
-    .Details {
-        width: 900px;
-    }
-    .DetailsContainer {
-        flex-direction: row;
-        gap: 20px;
-        align-items: center;
-    }
-}
+     .Details {
+         width: 900px;
+     }
 
-.PageCont {
-    display: flex;
-    justify-content: center;
-}
+     .DetailsContainer {
+         flex-direction: row;
+         gap: 20px;
+         align-items: center;
+     }
+ }
+
+ .PageCont {
+     display: flex;
+     justify-content: center;
+ }
 
  .Details {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
+     margin-top: 20px;
+     display: flex;
+     flex-direction: column;
  }
 
  #BackButton {
-    margin-top: 20px;
-    position: absolute;
+     margin-top: 20px;
+     position: absolute;
  }
 
  .DetailsTitle {
-    text-align: center;
-    text-transform: uppercase;
+     text-align: center;
+     text-transform: uppercase;
  }
 
  .DetailsTagline {
-    text-align: center;
-    font-style: italic;
+     text-align: center;
+     font-style: italic;
  }
 
  .DetailsContainer {
-    padding: 20px;
-    display: flex;
+     padding: 20px;
+     display: flex;
  }
- 
+
  .DetailsImage {
-    padding: 20px;
-    max-width: 500px;
+     padding: 20px;
+     max-width: 500px;
  }
 
-.DetailsTexts {
-    padding: 10px;
-}
+ .DetailsTexts {
+     padding: 10px;
+ }
 
-.DetailsIngredientsContainer {
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-}
+ .DetailsIngredientsContainer {
+     padding: 20px;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 50px;
+ }
 
-.DetailsIngredients {
-    font-size: 1.5rem;
-}
+ .DetailsIngredients {
+     font-size: 1.5rem;
+ }
 
-.IngredientName {
-    font-size: 1.2rem;
-}
+ .IngredientName {
+     font-size: 1.2rem;
+ }
 
-.IngredientPar {
-    font-size: 1rem;
-}
+ .IngredientPar {
+     font-size: 1rem;
+ }

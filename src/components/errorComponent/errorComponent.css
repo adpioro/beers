@@ -1,0 +1,23 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #ErrorBottle {
+        height: 250px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #ErrorBottle {
+        height: 400px;
+    }
+}
+
+#ErrorPage {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+#ErrorBottle {
+    align-self: flex-start;
+}
