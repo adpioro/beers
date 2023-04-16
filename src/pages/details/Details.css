@@ -42,6 +42,11 @@
     flex-direction: column;
  }
 
+ #BackButton {
+    margin-top: 20px;
+    position: absolute;
+ }
+
  .DetailsTitle {
     text-align: center;
     text-transform: uppercase;

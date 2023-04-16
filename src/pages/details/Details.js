@@ -4,14 +4,17 @@
 
 import "./Details.css"
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import { getBeer } from "../../service/data.service";
 import LoadingComponent from "../../components/loadingComponent/loadingComponent";
 import emptyBottle from "../../components/errorComponent/empty-bottle.png"
+import { IconButton } from "@mui/material";
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 
 export default function Details() {
     const [beer, setBeer] = useState(null)
     const { id: beerId } = useParams()
+    const navigate = useNavigate()
 
     useEffect(() => {
         if (beerId) getBeer(beerId).then((data) => setBeer(data[0]));
@@ -21,6 +24,12 @@ export default function Details() {
         <div className="PageCont">
             { beer ? (
                 <div className="Details">
+                <IconButton
+                  id="BackButton"
+                  onClick={() => navigate(`/`)}
+                >
+                  <ArrowBackIosIcon />
+                </IconButton>
                 <h1 className="DetailsTitle">{beer.name}</h1>
                 <p className="DetailsTagline">{beer.tagline}</p>
                 <div className="DetailsContainer">

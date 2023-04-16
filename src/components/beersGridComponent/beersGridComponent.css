@@ -11,6 +11,14 @@ a {
     text-align: center;
 }
 
+.beerComponent:hover {
+    background-color: lightgray;
+}
+
+.beerComponent:active {
+    background-color: darkgray;
+}
+
 .beerComponentImage {
     padding: 10px;
     height: 250px;
