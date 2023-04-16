@@ -1,0 +1,15 @@
+{
+  "short_name": "Beers App",
+  "name": "Punk API Beers App",
+  "icons": [
+    {
+      "src": "logo200.png",
+      "sizes": "200x200",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

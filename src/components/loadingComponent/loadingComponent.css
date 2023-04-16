@@ -1,0 +1,28 @@
+.Loading {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: goldenrod;
+  }
+
+.bottle {
+    height: auto;
+    width: auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .bottle {
+      animation: bottle-spin infinite 20s linear;
+    }
+  }
+
+@keyframes bottle-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
