@@ -14,7 +14,6 @@ export default async function getData(page) {
   }
     
   export async function getBeer(id) {
-    console.log(id);
     try {
       const response = await fetch("https://api.punkapi.com/v2/beers/" + id);
       if (!response.ok) {

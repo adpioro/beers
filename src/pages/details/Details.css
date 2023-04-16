@@ -37,6 +37,7 @@
 }
 
  .Details {
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
  }
@@ -48,6 +49,7 @@
 
  .DetailsTagline {
     text-align: center;
+    font-style: italic;
  }
 
  .DetailsContainer {

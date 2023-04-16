@@ -5,7 +5,7 @@ export default function LoadingComponent() {
     return (
         <div className="Loading">
             <p className='LoadintText'>Preparing data</p>
-            <img src={bottle} className="bottle" alt="bottle" />
+            <img src={bottle} className="Bottle" alt="bottle" />
         </div>
     )
 }
